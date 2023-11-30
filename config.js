@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner  = ['6281351047727', '380942618992'] // letakkan nomor kalian disini
+global.owner  = ['601157021005'] // letakkan nomor kalian disini
 global.mods  = JSON.parse(fs.readFileSync('./src/moderator.json')) // orang terpercaya?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -32,15 +32,15 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'SHIRAORI️BOT'
-global.author = 'ilman'
+global.packname = 'Butohmakhang'
+global.author = 'syam'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wait = '_*tunggu..*_'
 global.eror = '*_Server Eror_*'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.tle = 'https://telegra.ph/file/ecb8f7d2c12d075fc4729.jpg',
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 500000 // Semakin tinggi, semakin sulit naik level
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
